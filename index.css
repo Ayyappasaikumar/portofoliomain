@@ -1,0 +1,291 @@
+*{
+	margin: 0;
+	padding:0;
+	box-sizing:border-box;
+}
+
+html{
+	color:lightblue;
+	font-family:Merienda;
+	scroll-behavior: smooth;
+
+}
+body{
+	background-color:lightskyblue;
+}
+ul,nav{
+	list-style:none;
+	
+}
+
+a{
+	text-decoration:none;
+	opacity:0.75;
+	color:black;
+
+
+}
+a:hover{
+	opacity: 1;
+}
+a.btn{
+	border-radius: 5px;
+	text-transform: uppercase;
+	font-weight: bold;
+	text-align:center;
+	background-color:#666;
+	
+}
+section{flex-direction: column;
+	display:flex;
+	align-items:center;
+	padding: 100px 80px;
+
+}
+.work-area, .contact{
+	background-color: #ddd;
+
+}
+.contact-area{
+	width: 100%;
+	display:flex;
+	flex-wrap:wrap;
+	justify-content: center;
+
+}
+section h3.header-text{
+	
+	text-transform: uppercase;
+	font-family:Baloo;
+	text-align:center;
+	margin-bottom:5px;
+	font-size : 45px;
+	
+	
+
+}
+.newsletter{
+	background-color: lightyellow;
+}
+.newsletter .header-text{
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+}
+section p{
+	max-width: 700px;
+	line-height: 2;
+	padding: 0 20px;
+	margin-bottom:30px;
+     text-align:center;
+}
+@media (max-width: 800px){
+	section{
+		padding: 50px 20px;
+	}
+}
+
+header{
+	position :absolute;
+	width: 100%;
+	display:flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 35px 100px 0px;
+	animation : 1s animate 0.5s forwards;
+	opacity : 0;
+	color:lightcoral;
+	z-index: 10;
+
+}
+@keyframes animate {
+	100%{
+		opacity: 1;
+	}
+}
+
+header h2{
+	font-family: Baloo;
+
+
+}
+header nav{
+	display:flex;
+	margin-right: -15px;
+
+}
+header nav li{
+ margin: 0px 0px;
+}
+@media (max-width: 800px){
+	header{
+		padding: 20px 50px;
+		flex-direction:column;
+
+}
+header h2{
+	margin-bottom : 15 px
+}
+
+header nav li{
+	background-color: #e3f2fd; 
+	left: 800px;
+
+}
+/* style=" */
+}
+.banner-area{
+
+	position: relative;
+justify-content: center;
+text-align: center;
+min-height: 100vh;top: 100px;
+
+
+}
+.banner-area .img-area{
+	position: absolute;
+	background-image:url(t2.png);
+	top: 0;
+	left: 0;
+	width:100%;
+	height: 100%;
+	background-size: cover;
+	-webkit-background-size:cover;
+	z-index:-1;
+	
+	background-position:center center;
+
+}
+.banner-area h2{
+	margin-bottom: 30px;
+	font-size:60px;
+	
+
+}
+.banner-area h3{
+	margin-bottom: 40px;
+	font-size:25px;
+}
+
+.banner-text{
+	opacity :0;
+	margin-top:200px;
+	color:white;
+	animation :1s  anime-two  1s forwards;
+}
+.banner-area a.btn{
+	padding: 20px 45px;
+}
+@keyframes anime-two{
+	100%{
+		opacity:1;
+		margin:0;
+	}
+}
+@media (max-width:800px){
+	.banner-area{
+		min-height:600px;
+	}
+	.banner-area h2{
+		font-size:10px
+	}
+	.banner-area h3{
+		font-size:28px;
+	}
+	.banner-area a.btn{
+		padding: 15px 40px;
+	}
+
+}
+#projects{
+	background-color:lightslategrey
+}
+.services-area .content-area .single-service{
+	height: 300px;
+	padding: 20px;
+	flex-basis:30%;
+	text-align: center;
+
+
+}
+.flex-container {
+	display: flex;
+	
+  }
+  
+  /* .flex-container > div {
+	background-color: #f1f1f1;
+	margin: 10px;
+	padding: 20px;
+	flex-flow: column;
+
+
+  } */
+  @media (max-width:916px){
+	
+	  
+	.flex-container {
+		display: flex;
+	
+		
+	
+		flex-direction: column;
+		
+	
+	
+	  }
+	  }
+
+
+.contact .conatct-area .singlecontact{
+	height : 300px;
+	padding : 20px;
+	flex-basis:50%;
+	text-align: center;
+	background-color:lightseagreen;
+}
+.single-contact i{
+	font-size: 33px;
+
+}
+#contact{
+	padding : 20px;
+	background-color:lightpink;
+}
+.image{
+	border: 1px solid #ddd;
+	border-radius: 4px;
+	padding: 5px;
+	width: 150px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+https://www.youtube.com/watch?v=evu4s2X5uBw
