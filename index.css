@@ -259,6 +259,60 @@ min-height: 100vh;top: 100px;
 	width: 150px;
 }
 
+.section .contact h2{
+	
+	
+	font-family:Baloo;
+	text-align:center;
+	margin-bottom:5px;
+	font-size : 45px;
+	
+	
+
+}
+
+/* @media (max-width:800px){
+
+	.contact .conatct-area .singlecontact{
+		height : 300px;
+		padding : 20px;
+		display:flex;
+		/* flex-basis:50%; */
+		/* flex-direction:row;
+		text-align: center;
+		background-color:lightseagreen;
+	}
+	.single-contact i{
+		font-size: 10px;
+	
+	}
+	#contact{
+		padding : 20px;
+		background-color:lightpink;
+	}
+	
+	  
+	
+	  } */ */
+	  .section .contact .contentarea h2{
+	
+	
+		font-family:Baloo;
+		text-align:center;
+		margin-bottom:5px;
+		font-size : 30px;
+		
+		
+	
+	}
+	@media (max-width: 800px) {
+		.section .contact h2{ /* Hide advertisement panel*/
+			
+			font-size : 20px;
+			
+		}
+		
+	}
 
 
 
